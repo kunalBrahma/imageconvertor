@@ -2,7 +2,7 @@
 
 A modern, macOS-native desktop application built with Python and PyQt6 to convert PNG or JPEG images to WebP format. The app optimizes images for web use, offering both lossy and lossless compression, with a user-friendly interface featuring image previews, drag-and-drop support, and a macOS-inspired design.
 
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](assets/Screenshot2.png)
 
 ## Features
 - **Convert Multiple Images**: Select or drag-and-drop multiple PNG or JPEG images for batch conversion to WebP.

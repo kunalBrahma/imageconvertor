@@ -1,0 +1,39 @@
+Pillow>=10.0.0
+PyQt6>=6.5.0
+
+Save the file.
+
+Verify Dependencies:
+
+Activate your virtual environment:
+
+bash
+
+source venv/bin/activate
+
+Test the dependencies in a clean environment:
+
+bash
+
+deactivate
+rm -rf venv
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python converter.py
+
+Ensure the app runs without errors (GUI opens, image conversion works).
+
+Verify WebP support:
+
+bash
+
+python3 -c "from PIL import features; print(features.check('webp'))"
+
+If False, install libwebp:
+
+bash
+
+brew install webp
+pip install --force-reinstall Pillow
+
